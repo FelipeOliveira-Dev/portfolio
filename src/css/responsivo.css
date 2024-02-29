@@ -1,13 +1,54 @@
 @media (max-width: 1120px){
     .img-home{
-        height: 350px;
+        height: 300px;
     }
+    .titulo-home{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .link-home{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .link-contato-home{
+        width: 125px;
+    }
+
     .sobre-habilidades{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        width: 100%;
     }
     .sobre-habilidades div{
         text-align: center;
+    }
+    .sobre, .habilidades{
+        max-width: 90%;
+    }
+
+    .q-projetos{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .q-projetos article{
+        max-width: 90%;
+    }
+
+    .meus-projetos{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .meus-projetos article{
+        width: 80%;
+    }
+
+    .links-contato{
+        flex-direction: column;
+    }
+    .link-contato{
+        width: 300px;
     }
 }

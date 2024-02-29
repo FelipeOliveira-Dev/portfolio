@@ -28,7 +28,30 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
-.txt-home ul{
+.link-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.link-contato-home{
+    color: #417CF2;
+    font-size: 15px;
+    background-color: #2C3A40;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border: 2px solid #417CF2;
+    border-radius: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.link-contato-home:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+/* .txt-home ul{
     padding: 0px 30px 0px 30px;
     list-style: none;
     display: flex;
@@ -44,6 +67,7 @@ body{
     border-radius: 2px;
     padding: 5px;
     cursor: pointer;
+    background-color: aqua;
 }
 .txt-home li{
     transition: 0.5s;
@@ -51,7 +75,7 @@ body{
 .txt-home li:hover{
     transform: scale(1.2);
     transition: 0.5s;
-}
+} */
 /*SOBRE E HABILIDADES*/
 .sobre-habilidades{
     display: flex;
@@ -227,12 +251,15 @@ body{
     align-items: center;
     justify-content: center;
     gap: 15px;
+    width: 100%;
 }
 .link-contato{
     color: #417CF2;
     font-size: 15px;
     background-color: #2C3A40;
-    padding: 8px;
+    /* padding: 8px; */
+    width: 100px;
+    height: 40px;
     border-style: none;
     border: 2px solid #417CF2;
     border-radius: 3px;
