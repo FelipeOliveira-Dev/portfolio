@@ -51,4 +51,8 @@
     .link-contato{
         width: 300px;
     }
+
+    .habilidades ul li{
+        justfy-content: center;
+    }
 }
