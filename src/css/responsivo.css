@@ -1,0 +1,10 @@
+@media (max-width: 1120px){
+    .sobre-habilidades{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sobre-habilidades div{
+        text-align: center;
+    }
+}

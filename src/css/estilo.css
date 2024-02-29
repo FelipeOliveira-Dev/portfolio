@@ -1,0 +1,245 @@
+/*GERAL*/
+body{
+    background-color: #2C3A40;
+    color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+/*HOME*/
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-home{
+    height: 500px;
+}
+.titulo-home{
+    font-size: 30px;
+}
+.titulo-home span{
+    color: #417CF2;
+}
+.txt-home{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.txt-home ul{
+    padding: 0px 30px 0px 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+.link-home{
+    text-decoration: none;
+    color: #417CF2;
+    border: solid 1px;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+.txt-home li{
+    transition: 0.5s;
+}
+.txt-home li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+/*SOBRE E HABILIDADES*/
+.sobre-habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.sobre, .habilidades{
+    max-width: 40%;
+}
+.sobre h2{
+    font-size: 25px;
+}
+.sobre p{
+    font-size: 20px;
+}
+.sobre p span{
+    color: #417CF2;
+    font-weight: bold;
+}
+.habilidades h2{
+    font-size: 25px;
+}
+.habilidades h2 span{
+    color: #417CF2;
+}
+.habilidades ul{
+    list-style: none;
+    padding: 0px;
+}
+.habilidades ul li h3{
+    width: 50px;
+    margin: 15px;
+}
+.habilidades ul li{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    gap: 20px;
+}
+.habilidades ul li h3 span{
+    color: #417CF2;
+}
+.percentual-habilidade{
+    box-sizing: border-box;
+    border: 2px solid #417CF2;
+    height: 15px;
+    width: 200px;
+    border-radius: 2px;
+}
+.percentual-habilidade::-webkit-progress-bar{
+    background-color: #2C3A40;
+}
+.percentual-habilidade::-webkit-progress-value{
+    background-color: #417CF2;
+}
+
+/*Quantidade de Projetos*/
+.q-projetos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+}
+.q-projetos article{
+    background-color: #3F5259;
+    height: 150px;
+    border: 5px solid #417CF2;
+    border-radius: 3px;
+}
+.q-projetos article h1{
+    color: #417CF2;
+    font-size: 40px;
+    margin: 10px;
+}
+.q-projetos article h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+/*PROJETOS*/
+.projetos h1{
+    font-size: 25px;
+    text-align: center;
+}
+.projetos h1 span{
+    color: #417CF2;
+}
+.meus-projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.projeto{
+    border-radius: 5px;
+    width: 20%;
+    /* height: 400px; */
+    background-color: #3F5259;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+}
+.projeto:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.img-projeto{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.titulo-projeto{
+    font-size: 25px;
+    margin: 0;
+    border-bottom: 2px solid #417CF2;
+}
+.carac-projeto{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.carac-projeto p{
+    margin: 0px;
+    border-bottom: 1px solid #417CF2;
+    text-align: center;
+}
+.botoes-projeto{
+    margin-top: 30px;
+}
+.links-projeto{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.link-projeto{
+    text-decoration: none;
+    color: #417CF2;
+    background-color: #2C3A40;
+    padding: 8px;
+    border-style: none;
+    border: 2px solid #417CF2;
+    border-radius: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.link-projeto:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*CONTATOS*/
+.contatos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contatos h1{
+    text-align: center;
+}
+.contatos h1 span{
+    color: #417CF2;
+}
+.links-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.link-contato{
+    color: #417CF2;
+    font-size: 15px;
+    background-color: #2C3A40;
+    padding: 8px;
+    border-style: none;
+    border: 2px solid #417CF2;
+    border-radius: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.link-contato:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
