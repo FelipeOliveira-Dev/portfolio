@@ -52,7 +52,7 @@
         width: 300px;
     }
 
-    .habilidades ul li{
-        justfy-content: center;
+    .percentual-habilidade{
+        width: 150px;
     }
 }
