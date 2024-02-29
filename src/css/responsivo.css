@@ -1,4 +1,7 @@
 @media (max-width: 1120px){
+    .img-home{
+        height: 350px;
+    }
     .sobre-habilidades{
         flex-direction: column;
         justify-content: space-around;
